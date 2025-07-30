@@ -79,7 +79,7 @@ namespace planets
                         CREATE TABLE {propertyName}_table (
                             id INTEGER NOT NULL PRIMARY KEY,
                             {propertyName} TEXT,
-                            FOREIGN KEY (id) references planets(id) ON DELETE CASCADE ON UPDATE CASCADE
+                            FOREIGN KEY (id) references planets(id) ON DELETE CASCADE 
                         );                      
 
                         INSERT INTO properties (name, type)
